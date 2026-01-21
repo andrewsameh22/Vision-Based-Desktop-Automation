@@ -22,7 +22,7 @@ class VisualGrounding:
                     print(f"Warning: Failed to load template from {path}")
         else:
             print(f"Warning: No templates found matching '{template_pattern}'")
-            print("Please snip an image of the Notepad icon and save it as 'notepad_template.png' (or _small/_large) in this folder.")
+            print("Please snip an image of the Notepad icon and save it as 'notepad_template.png' in the 'assets' folder.")
 
     def capture_screenshot(self, save_path=None):
         """Captures the full desktop screenshot."""

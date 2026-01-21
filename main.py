@@ -8,8 +8,7 @@ def main():
     print("Resolution requirement: 1920x1080 (Targeting labels)")
     
     # Initialize components
-    # Initialize components
-    grounder = VisualGrounding(template_pattern="notepad_template*.png")
+    grounder = VisualGrounding(template_pattern="assets/notepad_template*.png")
     bot = NotepadBot()
     
     # Fetch data
